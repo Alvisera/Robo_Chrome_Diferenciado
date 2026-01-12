@@ -4,6 +4,8 @@ def consultar_janelas_abertas(): #PRINTA O NOME DE TODAS AS JANELAS E ABAS ABERT
     janelas = gw.getAllTitles()
     print(janelas)
 
+    return janelas
+
 consultar_janelas_abertas()
 
 def ativar_pagina(nome_pag): #ATIVA A PAGINA
