@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 options = webdriver.ChromeOptions()
-navegador = webdriver.Chrome(service=Service(ChromeDriverManager().install), options=options)
+navegador = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 wait = WebDriverWait(navegador, 10)
 
